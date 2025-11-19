@@ -6,12 +6,12 @@
     {
       "phase_name": "PHASE_1_Initiation",
       "noise_allocation_pct": 60,
-      "description": "Forte exposition au 'Bruit' (non-ciblé) pour maximiser la découverte et initier la rééducation algorithmique.",
+      "description": "High exposure to 'Noise' (non-targeted content) to maximize discovery and initiate algorithmic re-education.",
       "settings": {
         "topic_preferences": {
-          "tech_ia": 40,
-          "actualites_mondiales": 30,
-          "hobby_cuisine": 20,
+          "tech_ai": 40,
+          "world_news": 30,
+          "hobby_cooking": 20,
           "sport_f1": 10
         },
         "featured_post_frequency": "1/hour",
@@ -22,12 +22,12 @@
     {
       "phase_name": "PHASE_2_Equilibrium",
       "noise_allocation_pct": 50,
-      "description": "Point d'équilibre 50/50. Transition basée sur l'analyse des données d'engagement de la Phase 1.",
+      "description": "50/50 balance point. A soft transition based on engagement data collected in Phase 1.",
       "settings": {
         "topic_preferences": {
-          "tech_ia": 40,
-          "actualites_mondiales": 30,
-          "hobby_cuisine": 20,
+          "tech_ai": 40,
+          "world_news": 30,
+          "hobby_cooking": 20,
           "sport_f1": 10
         },
         "featured_post_frequency": "1/hour",
@@ -38,12 +38,12 @@
     {
       "phase_name": "PHASE_3_Controlled_Ideal",
       "noise_allocation_pct": 40,
-      "description": "Équilibre ciblé final : 40% de Bruit pour la santé du système, 60% de contrôle utilisateur pour la satisfaction.",
+      "description": "Final targeted balance: 40% Noise for system health, 60% user control for satisfaction.",
       "settings": {
         "topic_preferences": {
-          "tech_ia": 40,
-          "actualites_mondiales": 30,
-          "hobby_cuisine": 20,
+          "tech_ai": 40,
+          "world_news": 30,
+          "hobby_cooking": 20,
           "sport_f1": 10
         },
         "featured_post_frequency": "1/hour",
