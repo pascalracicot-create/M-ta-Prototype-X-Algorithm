@@ -1,0 +1,9 @@
+/* Extrait du Méta-Prototype pour la STRUCTURE */
+
+"topic_preferences": {
+    "Technology_Innovation": [USER_PERCENTAGE_35],
+    "Global_Current_Events": [USER_PERCENTAGE_30],
+    "Culture_Entertainment": [USER_PERCENTAGE_25],
+    "Community_Lifestyle": [USER_PERCENTAGE_10]
+    /* NOTA : La somme des pourcentages utilisateur doit toujours totaliser 100% */
+}
