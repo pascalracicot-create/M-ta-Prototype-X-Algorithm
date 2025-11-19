@@ -30,4 +30,4 @@ The `featured_post_frequency` parameter dictates a **HARD, UNIVERSAL INTERRUPT**
 ### Live Context / Social Proof
 This prototype was developed as a direct response to a challenge posed by Grok/x.AI. The original conversation and visual context can be found here:
 
-
+https://x.com/PascalRaci39352/status/1991143225642356867?t=FfF6vhHehzsgm2_BF4Eq6g&s=19
