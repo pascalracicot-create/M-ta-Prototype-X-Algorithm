@@ -1,0 +1,7 @@
+Catégorie Curseur de \mathbf{0\%} à \mathbf{100\%} Valeur de l'utilisateur (Exemple)
+Innovation & Technologie [Curseur 📊] 35\%
+Actualités Mondiales [Curseur 📰] 30\%
+Culture & Divertissement [Curseur 🎭] 25\%
+Communauté & Vie Quotidienne [Curseur 🏡] 10\%
+
+Interactivity: If the user pushes "Innovation" to 50%, the other categories should decrease proportionally or there should be a notification to adjust the others to return to 100%.
