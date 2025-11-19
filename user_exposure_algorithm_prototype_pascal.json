@@ -1,0 +1,55 @@
+{
+  "user_id": "PASCAL_ID_EXAMPLE",
+  "deployment_strategy_name": "Progressive_Exposure_Control_by_Pascal",
+  "deployment_phases": [
+    
+    {
+      "phase_name": "PHASE_1_Initiation",
+      "noise_allocation_pct": 60,
+      "description": "High exposure to 'Noise' (non-targeted content) to maximize discovery and initiate algorithmic re-education. User sets relative topic preferences.",
+      "settings": {
+        "topic_preferences": {
+          "Technology_Innovation": "[USER_DEFINED_RELATIVE_PCT]", 
+          "Global_Current_Events": "[USER_DEFINED_RELATIVE_PCT]",
+          "Culture_Entertainment": "[USER_DEFINED_RELATIVE_PCT]",
+          "Community_Lifestyle": "[USER_DEFINED_RELATIVE_PCT]"
+          /* Note: The sum of these user-defined relative percentages must equal 100. */
+        },
+        "featured_post_frequency": "1/hour",
+        "priority_ranking": "recent"
+      }
+    },
+    
+    {
+      "phase_name": "PHASE_2_Equilibrium",
+      "noise_allocation_pct": 50,
+      "description": "50/50 balance point. A soft transition based on engagement data collected in Phase 1. User sets relative topic preferences.",
+      "settings": {
+        "topic_preferences": {
+          "Technology_Innovation": "[USER_DEFINED_RELATIVE_PCT]",
+          "Global_Current_Events": "[USER_DEFINED_RELATIVE_PCT]",
+          "Culture_Entertainment": "[USER_DEFINED_RELATIVE_PCT]",
+          "Community_Lifestyle": "[USER_DEFINED_RELATIVE_PCT]"
+        },
+        "featured_post_frequency": "1/hour",
+        "priority_ranking": "recent"
+      }
+    },
+    
+    {
+      "phase_name": "PHASE_3_Controlled_Ideal",
+      "noise_allocation_pct": 40,
+      "description": "Final targeted balance: 40% Noise for system health, 60% user control for satisfaction. User sets relative topic preferences.",
+      "settings": {
+        "topic_preferences": {
+          "Technology_Innovation": "[USER_DEFINED_RELATIVE_PCT]",
+          "Global_Current_Events": "[USER_DEFINED_RELATIVE_PCT]",
+          "Culture_Entertainment": "[USER_DEFINED_RELATIVE_PCT]",
+          "Community_Lifestyle": "[USER_DEFINED_RELATIVE_PCT]"
+        },
+        "featured_post_frequency": "1/hour",
+        "priority_ranking": "recent"
+      }
+    }
+  ]
+}
