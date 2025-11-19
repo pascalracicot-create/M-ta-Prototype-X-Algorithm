@@ -1,0 +1,54 @@
+{
+  "user_id": "PASCAL_ID_EXAMPLE",
+  "deployment_strategy_name": "Progressive_Exposure_Control_by_Pascal",
+  "deployment_phases": [
+    
+    {
+      "phase_name": "PHASE_1_Initiation",
+      "noise_allocation_pct": 60,
+      "description": "Forte exposition au 'Bruit' (non-ciblé) pour maximiser la découverte et initier la rééducation algorithmique.",
+      "settings": {
+        "topic_preferences": {
+          "tech_ia": 40,
+          "actualites_mondiales": 30,
+          "hobby_cuisine": 20,
+          "sport_f1": 10
+        },
+        "featured_post_frequency": "1/hour",
+        "priority_ranking": "recent"
+      }
+    },
+    
+    {
+      "phase_name": "PHASE_2_Equilibrium",
+      "noise_allocation_pct": 50,
+      "description": "Point d'équilibre 50/50. Transition basée sur l'analyse des données d'engagement de la Phase 1.",
+      "settings": {
+        "topic_preferences": {
+          "tech_ia": 40,
+          "actualites_mondiales": 30,
+          "hobby_cuisine": 20,
+          "sport_f1": 10
+        },
+        "featured_post_frequency": "1/hour",
+        "priority_ranking": "recent"
+      }
+    },
+    
+    {
+      "phase_name": "PHASE_3_Controlled_Ideal",
+      "noise_allocation_pct": 40,
+      "description": "Équilibre ciblé final : 40% de Bruit pour la santé du système, 60% de contrôle utilisateur pour la satisfaction.",
+      "settings": {
+        "topic_preferences": {
+          "tech_ia": 40,
+          "actualites_mondiales": 30,
+          "hobby_cuisine": 20,
+          "sport_f1": 10
+        },
+        "featured_post_frequency": "1/hour",
+        "priority_ranking": "recent"
+      }
+    }
+  ]
+}
